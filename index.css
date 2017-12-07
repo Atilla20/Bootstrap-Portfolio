@@ -1,0 +1,290 @@
+/* apply to all*/
+* {
+	box-sizing: border-box;
+}
+
+/* background image that covers whole viewport*/
+body {
+	background-image: url("images/background.jpg");
+	max-width: 100%;
+	height: auto;
+	background-repeat:repeat center center fixed;
+	
+}
+/*==============================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+About Page/Index page
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+/*Navigation Part===================================================
+========================================*/
+nav {
+	background-color:rgba(179,101,115,0.6);
+	border-bottom:3px solid #010101;
+	
+}
+
+.container {
+	padding-top:0px;
+}
+
+.navbar {
+	padding:0px;
+}
+
+.navbar-header {
+	border:none;
+}
+
+.navbar.navbar-default {
+	padding-top:0px;
+}
+
+.headername.mainheader {
+	margin-top:-100px;
+	background-color:#010101;
+	line-height:90px;
+	color:white;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:0px;
+	padding-left:20px;
+
+}
+
+#about,
+#portfolio,
+#contact {
+	font-size:22px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#010101;
+	padding-right:10px;
+}
+
+#about,
+#portfolio {
+	border-right: 1px solid rgba(1,1,1,0.6);
+}
+
+#contact,
+#portfolio {
+	padding-left:10px;
+}
+
+.navbar-header a:hover {
+	color:#fff;
+}
+
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+	color:#fff;
+	cursor:pointer;
+}
+
+
+button {
+	border:none;
+	background-color:transparent;
+	margin-left:700px;
+	margin-top:60px;
+	
+}
+
+/*About me===================================================
+========================================*/
+
+.card {
+	padding: 40px;
+	background-color:rgba(179,101,115,0.6);
+	border:2px solid #010101;
+	margin-top: 90px;
+
+}
+.mainheader {
+	font-size:35px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#010101;
+	margin-bottom:0px;
+
+
+}
+
+.my-4 {
+	border:3px solid rgba(1,1,1, 0.3);
+}
+
+.profile-pic {
+	width:200px;
+	height:200px;
+	margin-right:20px;
+	margin-bottom:20px;
+	float:left;
+}
+
+.clearfix {
+	clear:left;
+}
+
+#first-paragraph,
+#second-paragraph {
+	font-size:18px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	letter-spacing:0.1em;
+	line-height:1.5;
+}	
+
+
+
+
+
+/*Contact Me, Aside part===================================================
+========================================*/
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.card-body {
+	padding:5px;
+}
+.github,
+.linkedin,
+.stackoverflow {
+	width:60px;
+	height:60px;
+	float:left;
+	margin-right:12px;
+	margin-left:12px;
+}
+
+.github:hover,
+.linkedin:hover,
+.stackoverflow:hover {
+	transform:scale(1.4);
+}
+
+.btn {
+	background:#010101;
+	color:white;
+	border:none;
+}
+
+.btn:hover {
+	background:#f44283;
+	color:white;
+	border:none;
+}
+
+/* Navbar footer===============================
+==============================================================*/
+
+.navbar-footer {
+	border-top:3px solid #010101;
+	letter-spacing:0.3em;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.navbar-footer span {
+	margin-left: 300px;
+}
+
+/*==============================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Contact Page
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+
+
+
+
+
+
+
+/*==============================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Portfolio Page
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+.box {
+	position:relative;
+	overflow:auto;
+}
+
+#badge1 {
+	position:absolute;
+	top: 195px;
+    left: 5px;
+
+}
+
+#badge2 {
+	position:absolute;
+	top:195px;
+	right:40px;
+}
+
+#badge3 {
+	position:absolute;
+	top:395px;
+	left: 5px;
+}
+
+#badge4 {
+	position: absolute;
+	top:395px;
+	right:40px;
+}
+
+#badge5 {
+	position:absolute;
+	top:595px;
+	left:5px;
+
+}
+
+
+.badge {
+ 	width: 240px;
+ 	padding:15px;
+ 	margin-bottom: 0;
+ 	line-height: 30px;
+ 	text-align: center;
+ 	border-bottom:0;
+ 	margin-top: -45px;
+ 	color: rgba(1,1,1,0.9);
+ 	background-color:rgba(255,255,255,.6);
+
+ }
+
+ .portfolio-pic {
+ 	float:left;
+ 	width:240px;
+ 	height:auto;
+ 	margin-top:10px;
+ 	margin-right:25px;
+ }
+
+
+
+
+
