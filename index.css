@@ -23,7 +23,7 @@ About Page/Index page
 
 /*Navigation Part===================================================
 ========================================*/
-nav {
+.nav {
 	background-color:rgba(179,101,115,0.6);
 	border-bottom:3px solid #010101;
 	
@@ -33,26 +33,17 @@ nav {
 	padding-top:0px;
 }
 
-.navbar {
-	padding:0px;
-}
-
-.navbar-header {
-	border:none;
-}
-
-.navbar.navbar-default {
-	padding-top:0px;
-}
 
 .headername.mainheader {
-	margin-top:-100px;
 	background-color:#010101;
-	line-height:90px;
+	line-height:40px;
+	font-size:28px;
 	color:white;
 	padding-top:20px;
 	padding-right:20px;
-	padding-bottom:0px;
+	padding-bottom:20px;
+	text-align:center;
+
 	padding-left:20px;
 
 }
@@ -76,25 +67,22 @@ nav {
 	padding-left:10px;
 }
 
-.navbar-header a:hover {
-	color:#fff;
-}
-
 #about:hover,
 #portfolio:hover,
 #contact:hover {
 	color:#fff;
 	cursor:pointer;
 }
+ .horizontalmenu {
 
+		margin-top:20px;
+         width: 1005px;
+         text-align:center;
+ }
 
-button {
-	border:none;
-	background-color:transparent;
-	margin-left:700px;
-	margin-top:60px;
-	
-}
+ .col-sm-12 {
+ 	width:90%;
+ }
 
 /*About me===================================================
 ========================================*/
@@ -187,6 +175,7 @@ ul {
 ==============================================================*/
 
 .navbar-footer {
+	background-color: rgba(179,101,115,0.6);
 	border-top:3px solid #010101;
 	letter-spacing:0.3em;
 	padding-top:25px;
